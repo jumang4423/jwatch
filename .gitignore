@@ -1,0 +1,12 @@
+# files that must never be committed
+secrets.h
+
+# macOS / editor junk
+.DS_Store
+*.swp
+*~
+
+# Arduino build output
+build/
+*.bin
+*.elf
